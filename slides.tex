@@ -1,0 +1,368 @@
+\documentclass[aspectratio=169,11pt,usenames,dvipsnames]{beamer}
+
+% \usepackage[colorlinks=true,linkcolor=customblue, citecolor=hpred,urlcolor=customlightblue]{hyperref}
+
+% theme
+\usetheme{simple}
+
+% packages
+\usepackage{mathrsfs}  
+\usepackage{cancel}
+% \usepackage{caption}
+% \usepackage{tikz}
+
+\setbeamercovered{transparent}
+\usepackage{tikz}
+\usetikzlibrary{overlay-beamer-styles}
+ \tikzset{
+    highlight on/.style={alt={#1{fill=customblue!80!black,color=customblue!80!black}{fill=gray!30!white,color=gray!30!white}}},
+}
+\usetikzlibrary{shapes}
+\usetikzlibrary{plotmarks}
+
+\usetikzlibrary{arrows.meta,
+                decorations.pathreplacing,
+                    calligraphy,
+                tikzmark}
+
+% \usepackage[symbol]{footmisc}
+% \renewcommand*{\thefootnote}{\fnsymbol{*}}
+\makeatother
+\renewcommand{\thefootnote}{$\star$}
+\makeatletter
+
+\newcommand{\symfootnote}[1]{%
+\let\oldthefootnote=\thefootnote%
+\stepcounter{mpfootnote}%
+\addtocounter{footnote}{-1}%
+\renewcommand{\thefootnote}{$\dagger$}%
+\footnote{#1}%
+\let\thefootnote=\oldthefootnote%
+}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{empheq}
+\usepackage{physics}
+\usepackage{svg}
+\usepackage{bm}
+% \usepackage{esvect}
+% \usepackage{emoji}
+\usepackage{annotate-equations}
+
+% back-up slides
+\usepackage{appendixnumberbeamer}
+
+\usepackage{relsize}
+
+% \usepackage{unicode-math}
+
+
+
+\usetikzlibrary{decorations.pathreplacing, decorations.pathmorphing,calc,arrows,positioning}
+
+% Custom colors
+\definecolor{lightcustomblue}{HTML}{aad1e6}
+% \definecolor{lightcustomblue}{HTML}{d8bcc1}
+\definecolor{customblue}{HTML}{3c9bb3}
+\definecolor{isred}{HTML}{81182d}
+\definecolor{hpred}{HTML}{712A27}
+
+% \definecolor{customgreen}{HTML}{8B9556}
+% ming
+\definecolor{customgreen}{HTML}{117877}
+
+% \definecolor{custompink}{HTML}{CC8B8C}
+% pinky
+\definecolor{custompink}{HTML}{c35861}
+\definecolor{lightpink}{HTML}{ba8489}
+
+\definecolor{starrymain}{HTML}{3B5B65}
+\definecolor{starrysecond}{HTML}{719593}
+\definecolor{hpblue}{HTML}{44545c}
+
+\definecolor{ektgreen}{HTML}{047c73}
+\definecolor{ektblue}{HTML}{065680}
+
+\definecolor{angcorr}{HTML}{502d7e}
+
+\definecolor{pinky}{HTML}{c35861}
+\definecolor{ming}{HTML}{117877}
+
+\definecolor{customred}{HTML}{9d1700}
+% \definecolor{customyellow}{HTML}{ebcc2a}
+\definecolor{customyellow}{HTML}{e0ad04}
+\definecolor{lightgray}{HTML}{a6a4a4}
+
+\definecolor{jyublue}{HTML}{002145}
+\definecolor{jyured}{HTML}{e13126}
+\definecolor{jyulightblue}{HTML}{909eae}
+
+\hypersetup{colorlinks,linkcolor=normal,citecolor=customblue, citecolor=pinky,urlcolor=pinky}
+
+% bibliography
+% \usepackage[style=numeric]{biblatex}
+% \addbibresource{references.bib}
+
+% custom commands
+\newcommand{\coloredeq}[2]{\begin{empheq}[box=\colorbox{#1}]{align*}#2\end{empheq}}
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+\newcommand\coloreditem[1]{\item[\textcolor{#1}{\usebeamertemplate{itemize \beameritemnestingprefix item}}]}
+\newcommand{\imp}[1]{{\sffamily\bfseries\color{customblue}#1}}
+
+\setbeamertemplate{frametitle}[default][center]
+
+
+% centered toc
+% \newsavebox{\longestsec}
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+\newlength{\secnamelength}
+\newsavebox{\longestsec}% Box to save longest sectional heading
+\patchcmd{\beamer@section}% <cmd>
+  {\beamer@savemode}% <search>
+  {\begin{lrbox}{\longestsec}#1\end{lrbox}%
+   \ifdim\wd\longestsec>\secnamelength\relax\setlength{\secnamelength}{\wd\longestsec}\fi%
+   \beamer@savemode}% <replace>
+  {}{}% <success><failure>
+\AtEndDocument{% http://tex.stackexchange.com/q/137495/5764
+  \immediate\write\@auxout{\global\secnamelength=\the\secnamelength}%
+}
+\makeatother
+
+
+\renewcommand{\d}{\mathrm{d}}
+\renewcommand{\tr}[1]{\mathrm{Tr}\left\{#1\right\}}
+
+% customize beamer
+% \setbeamercolor{frametitle}{fg=jyublue}
+\setbeamercolor{framesubtitle}{fg=normal}
+\setbeamercolor{subtitle}{fg=customblue}
+\setbeamerfont{frametitle}{series=\normalfont\huge}
+\setbeamerfont{framesubtitle}{series=\normalfont\normalsize}
+\setbeamerfont{section in toc}{series=\normalfont\Large}
+% \setbeamerfont{subsection in toc}{series=\itshape}
+
+% all subsections in TOC in a single line
+\defbeamertemplate*{subsection in toc}{sub on 1 line}
+{
+  \ifnum\inserttocsubsectionnumber=1
+    \vspace{0.1cm}\hspace{0.45cm}\inserttocsubsection
+  \else
+    {\color{customblue}$\sbullet[0.6]$}\hspace{0.2cm}\inserttocsubsection
+  \fi
+}
+
+
+\usefonttheme[onlymath]{serif}
+
+% Item shape and color
+\setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{customblue}\blacktriangleright}$}}} 
+
+\newcommand{\itemcolor}[1]{\setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{#1}\blacktriangleright}$}}}}
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\setbeamercolor{footline}{fg=customblue}
+\setbeamerfont{footline}{series=\normalfont\footnotesize}
+\setbeamertemplate{navigation symbols}{}
+
+% scale bullet symbol
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+% colored box environment
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,hooks}
+\newcommand\fancybox[3]{%
+\tcbset{
+    mybox/.style={
+        enhanced,
+        boxsep=0mm,
+        opacityfill=0,
+        overlay={
+            \coordinate (X) at ([xshift=2mm, yshift=-1.5mm]frame.north east);
+            \node[align=left, text=#1, text width=5cm, anchor=north west] at (X) {#2};
+            \draw[line width=0.3mm, color=#1] (frame.north east) -- (frame.south east); 
+            }
+        }
+    }
+
+\begin{tcolorbox}[mybox]
+    #3
+\end{tcolorbox}
+}
+
+% figure caption
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+
+% title page
+\title{\normalfont\Large The impact of {\color{jyured}glasma} on heavy quark {\color{jyublue}spectra} and {\color{jyublue}correlations}\vspace{-10pt}}
+\date{\vspace{-30pt}
+    \begin{center}
+        \resizebox{.9\textwidth}{!}{%
+        \includegraphics[height=0.5cm]{images/CoE-logo-01_nobg.png}%
+        \quad
+        \includegraphics[height=0.5cm]{images/Jyvaskylan_Yliopisto_401x301_crop_nobg.png}%
+        \quad
+        \includegraphics[height=0.6cm]{images/Helsinki-Institute-of-physics-grey_nobg.png}%
+        \quad
+        \includegraphics[height=0.5cm]{images/European_Research_Council_logo.svg.png}%
+        }
+    \end{center}
+
+    \begin{columns}
+        \begin{column}{0.1\textwidth}\end{column}
+        \begin{column}{0.8\textwidth}
+            \centering
+            \footnotesize Hard Probes 2024\end{column}
+        \begin{column}{0.1\textwidth}\end{column}
+    \end{columns}    
+}
+\author{\vspace{-20pt}\large {\color{jyured} $\displaystyle\int\mathcal{DA}$}vramescu\\[20pt]}
+\institute{
+\begin{columns}
+    \begin{column}{0.34\textwidth}
+      \centering
+      \normalsize{\color{jyublue}T. Lappi, H. M\"{a}ntysaari}\\
+      {\footnotesize University of Jyväskylä}
+    \end{column}
+    \begin{column}{0.33\textwidth}
+      \centering
+      \normalsize{\color{jyublue}D. M\"{u}ller}\\
+      {\footnotesize TU Wien}
+    \end{column}
+    \begin{column}{0.33\textwidth}
+      \centering
+      \normalsize{\color{jyublue}V. Greco}\\
+      {\footnotesize University of Catania}
+    \end{column}
+\end{columns}
+\vspace{10pt}
+\begin{center}
+    Based on \href{add link}{\color{jyured}arXiv2409.????} and \href{add link}{\color{jyured}arXiv2409.????}
+\end{center}
+}
+
+
+
+\usebackgroundtemplate{
+\tikz[overlay,remember picture] \node[opacity=0.1, at=(current page.center)] {
+   \includegraphics[height=0.7\paperheight]{images/CoE-QM-2_2-modified.png}};
+}
+
+\setbeamercolor{progress bar progress}{use=progress bar,bg=progress bar.fg}
+\defbeamertemplate{footline}{progress bar}{
+  \dimen0=\paperwidth
+  \multiply\dimen0 by \insertframenumber
+  \divide\dimen0 by \inserttotalframenumber
+  \edef\progressbarwidth{\the\dimen0}
+
+  \leavevmode%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.1cm]{progress bar}
+    \begin{beamercolorbox}[wd=\progressbarwidth,ht=0.1cm]{progress bar progress}
+    \end{beamercolorbox}%
+  \end{beamercolorbox}%
+}
+
+
+\usepackage{tikz}
+
+\definecolor{color1}{RGB}{173,216,230}
+\definecolor{color2}{RGB}{255,140,0}
+
+\newcounter{totavalue}
+\newcounter{parvalue}
+
+\def\aux{4}
+\def\radius{12pt}
+\def\innerradius{7pt}
+\def\step{6pt}
+
+\newcommand\circcounter{%
+\ifnum\inserttotalframenumber<2\relax
+\else
+  \setcounter{totavalue}{\inserttotalframenumber}
+  \setcounter{parvalue}{\insertframenumber}
+  \ifnum\inserttotalframenumber>45\relax
+    \renewcommand\step{0pt}
+  \fi%
+  \pgfmathsetmacro{\aux}{360/\thetotavalue}
+  \begin{tikzpicture}[remember picture,overlay,rotate=90+\aux]
+  \foreach \i in {0,1,...,\thetotavalue}
+    \fill[lightcustomblue] 
+      (0,0) -- (-\i*\aux:\radius) arc  (-\i*\aux:-(\i+1)*\aux+\step:\radius) -- cycle;
+  \foreach \i in {1,...,\insertframenumber}
+    \fill[customblue] 
+      (0,0) -- (-\i*\aux:\radius) arc  (-\i*\aux:-(\i+1)*\aux+\step:\radius) -- cycle;
+  \fill[white] circle (\innerradius);
+  \node at (0,0) {\footnotesize\insertframenumber}; 
+  % \node at (0,0) {}; 
+  \end{tikzpicture}%
+\fi%
+}
+
+
+% \setbeamertemplate{section in toc}[circle]
+% \setbeamercolor{section number projected}{bg=customblue,fg=white}
+
+
+
+% Slide with section title
+% \AtBeginSection[]{
+%   \begin{frame}
+%   \centering
+%   \Huge\normalfont\insertsectionhead
+%   \end{frame}
+% }
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% TITLE SLIDE %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \setbeamertemplate{headline}{}
+
+\maketitle
+
+\usebackgroundtemplate{ } 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% TOC %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\setbeamertemplate{background}{
+\tikz[overlay,remember picture] \node[opacity=0.15, at=(current page.center), align=center] {
+    \\[15pt]
+    {\transparent{0.2}\includegraphics[height=0.7\paperheight]{images/trajectories_cpic.png}} 
+    \\[10pt]  
+   };
+}
+\begin{frame}{Outline}
+    \begin{center}
+        \tableofcontents
+    \end{center}
+\end{frame}
+\setbeamertemplate{background}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{General context}
+
+
+\end{document}
