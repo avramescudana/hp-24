@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  11 SEP 2024 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  11 SEP 2024 21:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1179,53 +1179,116 @@ Package pdftex.def Info: images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png  us
 
  <./images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1128.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1130.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1128.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1130.
 
 <images/final_sketch_raa_gl_fonll_v4_gl.png, id=99, 2903.84875pt x 2699.08376pt>
 File: images/final_sketch_raa_gl_fonll_v4_gl.png Graphic file (type png)
 <use images/final_sketch_raa_gl_fonll_v4_gl.png>
-Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_gl.png  used on input line 1128.
-(pdftex.def)             Requested size: 166.69086pt x 154.94138pt.
+Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_gl.png  used on input line 1130.
+(pdftex.def)             Requested size: 149.98633pt x 139.44893pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1128.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1130.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1128.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1130.
 
 <images/final_sketch_raa_gl_fonll_v4_fonll.png, id=100, 2913.88625pt x 2710.125pt>
 File: images/final_sketch_raa_gl_fonll_v4_fonll.png Graphic file (type png)
 <use images/final_sketch_raa_gl_fonll_v4_fonll.png>
-Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_fonll.png  used on input line 1128.
-(pdftex.def)             Requested size: 166.55565pt x 154.94138pt.
-
-Overfull \vbox (3.16522pt too high) detected at line 1128
+Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_fonll.png  used on input line 1130.
+(pdftex.def)             Requested size: 149.92676pt x 139.44893pt.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 1130.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+Overfull \vbox (0.61476pt too high) detected at line 1130
  []
 
 
 
 [4
 
- <./images/final_sketch_raa_gl_fonll_v4_gl.png> <./images/final_sketch_raa_gl_fonll_v4_fonll.png>]
-<images/final_sketch_raa_gl_fonll_v4_crop_2.png, id=109, 2707.11375pt x 2710.125pt>
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./images/final_sketch_raa_gl_fonll_v4_gl.png> <./images/final_sketch_raa_gl_fonll_v4_fonll.png>]
+<images/final_sketch_raa_gl_fonll_v4_crop_2.png, id=113, 2707.11375pt x 2710.125pt>
 File: images/final_sketch_raa_gl_fonll_v4_crop_2.png Graphic file (type png)
 <use images/final_sketch_raa_gl_fonll_v4_crop_2.png>
-Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_crop_2.png  used on input line 1169.
-(pdftex.def)             Requested size: 155.69016pt x 155.85992pt.
+Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_crop_2.png  used on input line 1187.
+(pdftex.def)             Requested size: 164.3402pt x 164.50273pt.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1169.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1187.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1169.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1187.
 
 
 
 [5
 
  <./images/final_sketch_raa_gl_fonll_v4_crop_2.png>]
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1244.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1244.
+
+<images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png, id=125, 505.89pt x 457.71pt>
+File: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png Graphic file (type png)
+<use images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png>
+Package pdftex.def Info: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png  used on input line 1244.
+(pdftex.def)             Requested size: 182.9392pt x 165.5158pt.
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1244.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1244.
+
+<images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png, id=126, 1907.125pt x 1907.125pt>
+File: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png Graphic file (type png)
+<use images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png>
+Package pdftex.def Info: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png  used on input line 1244.
+(pdftex.def)             Requested size: 168.71211pt x 168.6947pt.
+
+Overfull \vbox (7.58687pt too high) detected at line 1244
+ []
+
+
+
+[6
+
+ <./images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png> <./images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png>]
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1301.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1301.
+
+File: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png Graphic file (type png)
+<use images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png>
+Package pdftex.def Info: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png  used on input line 1301.
+(pdftex.def)             Requested size: 182.9392pt x 165.5158pt.
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1301.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 1301.
+
+File: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png Graphic file (type png)
+<use images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png>
+Package pdftex.def Info: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png  used on input line 1301.
+(pdftex.def)             Requested size: 168.71211pt x 168.6947pt.
+
+Overfull \vbox (41.61047pt too high) detected at line 1301
+ []
+
+
+
+[7
+
+]
 \tf@nav=\write6
 \openout6 = `slides.nav'.
 
@@ -1244,18 +1307,18 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: BEA142922E280F5105B0C01A6BAE19DA;374.
  ) 
 Here is how much of TeX's memory you used:
- 40794 strings out of 473600
- 869486 string characters out of 5728708
- 1947905 words of memory out of 5000000
- 62819 multiletter control sequences out of 15000+600000
- 590247 words of font info for 139 fonts, out of 8000000 for 9000
+ 41143 strings out of 473600
+ 877656 string characters out of 5728708
+ 1952905 words of memory out of 5000000
+ 63155 multiletter control sequences out of 15000+600000
+ 598584 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,123p,1952b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on slides.pdf (5 pages, 3969890 bytes).
+ 128i,18n,123p,1952b,1451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on slides.pdf (7 pages, 4512064 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

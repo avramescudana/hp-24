@@ -1095,7 +1095,7 @@
             \vspace{-15pt}
             \begin{figure}
                 \centering
-                \includegraphics[height=0.7\textheight]{images/final_sketch_raa_gl_fonll_v4_gl.png}
+                \includegraphics[height=0.63\textheight]{images/final_sketch_raa_gl_fonll_v4_gl.png}
             \end{figure}
         \end{center}
         
@@ -1105,26 +1105,28 @@
        \begin{center}
         \begin{custombox}{{\normalsize Effect of initial spectrum}}{raablue}
             \small
-            \begin{varwidth}{0.85\textwidth}
+            \begin{varwidth}{0.9\textwidth}
             \begin{itemize}
                 \itemsep0em
                 \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{raablue}\blacktriangleright}$}}} 
                 \footnotesize
-                \item Initial pQCD FONLL $p_T$ spectrum
-                \item More particles at intermediate $p_T$
+                \item Initial pQCD FONLL $p_T$ spectrum\\
+                {\scriptsize\color{lightgray}Fixed-Order+Next-to-Leading Logarithm}
             \end{itemize}
             \end{varwidth}
         \end{custombox}
 
-        \vspace{-15pt}
+        \vspace{-13pt}
         \begin{figure}
             \centering
-            \includegraphics[height=0.7\textheight]{images/final_sketch_raa_gl_fonll_v4_fonll.png}
+            \includegraphics[height=0.63\textheight]{images/final_sketch_raa_gl_fonll_v4_fonll.png}
         \end{figure}
 
        \end{center}
         \column{.033\textwidth}
     \end{columns}
+
+    \blfootnote{\scriptsize Cacciari, Greco, Nason \href{https://arxiv.org/abs/hep-ph/9803400}{{\color{palgold}\texttt{[hep-ph/9803400]$^\text{\tiny\faExternalLink}$}}}, \href{https://www.lpthe.jussieu.fr/~cacciari/fonll/fonllform.html}{{\color{raablue}\texttt{[FONLL web form]$^\text{\tiny\faLink}$}}}}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1142,7 +1144,7 @@
     
             \begin{figure}
                 \centering
-                \includegraphics[width=0.9\textwidth]{images/final_sketch_raa_gl_fonll_v4_crop_2.png}
+                \includegraphics[width=0.95\textwidth]{images/final_sketch_raa_gl_fonll_v4_crop_2.png}
             \end{figure}
         \end{center}
         
@@ -1152,27 +1154,150 @@
        \begin{center}
         \begin{custombox}{$\boldsymbol{R_{AA}}$ in glasma}{lightgray}
             \small
-            \begin{varwidth}{0.98\textwidth}
+            \begin{varwidth}{0.85\textwidth}
             \begin{itemize}
                 \itemsep0em
                 \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{lightgray}\blacktriangleright}$}}} 
-                % \footnotesize
-                \item {\bfseries``Ratio of $\boldsymbol{AA}$ to $\boldsymbol{pp}$ normalized spectra"}\\[5pt]
-                $R_{AA}(\tau)=\dfrac{1}{A^2}\dfrac{\sigma_\mathrm{tot}^{AA}}{\sigma_\mathrm{tot}^{pp}}\dfrac{\dfrac{\mathrm{d}N}{\mathrm{d}p_T}(\tau;pp/AA)}{\dfrac{\mathrm{d}N^{pp}}{\mathrm{d}p_T}}$
+                \item Ratio of ${\color{palviolet}AA}$ to ${\color{palteal}pp}$ normalized spectra
             \end{itemize}
             \end{varwidth}
         \end{custombox}
 
         \begin{itemize}
             \itemsep0em
-            \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{palteal}\blacktriangleright}$}}} 
-            % \footnotesize
-            \item {\color{palteal}}
+            \footnotesize\color{lightgray}
+            \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{lightgray}\blacktriangleright}$}}} 
+            \item ${\color{palviolet}AA}$ evolved in {\color{palviolet}glasma}, ${\color{palteal}pp}$ from {\color{palteal}FONLL} 
+            \item Glasma spectrum initialized with FONLL
         \end{itemize}
+        \vspace{5pt}
+
+        \renewcommand{\eqnhighlightheight}{\vphantom{\mathcal{D}_\mu}\mathstrut}
+        \begin{equation*}
+            \hspace{0pt}
+            R_{AA}(\tau)=\dfrac{1}{A^2}\dfrac{{\color{palgold}\sigma}^{\textcolor{normal}{AA}}_{\mathrm{\textcolor{palgold}{tot}}}}{\eqnmark[palgold]{sigma}{{\color{palgold}\sigma}^{\textcolor{normal}{pp}}_{\mathrm{\textcolor{palgold}{tot}}}}}\dfrac{\eqnmark[palviolet]{gl}{\mathrm{d}N/\mathrm{d}p_T}(\tau)}{\eqnmark[palteal]{fonll}{\mathrm{d}N^{pp}/\mathrm{d}p_T}}
+        \end{equation*}
+        \annotate[yshift=-0.5em]{below, left}{sigma}{\tiny total $Q\overline{Q}$ cross section}
+        \annotate[yshift=1.2em]{above, left}{gl}{\tiny glasma spectrum}
+        \annotate[yshift=-2em]{below, left}{fonll}{\tiny FONLL spectrum}
 
        \end{center}
         \column{.033\textwidth}
     \end{columns}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% SLIDE %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{$R_{AA}$ in glasma}
+    % \framesubtitle{Temporal evolution, energy dependence}
+    \vspace{-15pt}
+    \begin{center}
+        \begin{columns}[onlytextwidth,t]
+            \column{.02\textwidth}
+           \column{.47\textwidth}
+           \begin{center}
+                \begin{custombox}{\normalsize Time $\boldsymbol{\tau}$ evolution}{palteal}
+                    \small
+                    \begin{varwidth}{0.88\textwidth}
+                    \begin{itemize}
+                        \itemsep0em
+                        \footnotesize
+                        \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{palteal}\blacktriangleright}$}}} 
+                        \item More enhancement in $R_{AA}$ at later $\tau$
+                    \end{itemize}
+                    \end{varwidth}
+                \end{custombox}
+            \end{center}
+            \vspace{-10pt}
+           \begin{figure}
+                \centering
+                \includegraphics[width=0.9\columnwidth]{images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png}
+            \end{figure}
+            \column{.02\textwidth}
+            \column{.47\textwidth}
+            \begin{center}
+                \begin{custombox}{\normalsize Effect of energy scales}{raapink}
+                    \small
+                    \begin{varwidth}{0.95\textwidth}
+                    \begin{itemize}
+                        \itemsep0em
+                        \footnotesize
+                        \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{raapink}\blacktriangleright}$}}} 
+                        \item Weak dependence on $\sqrt{s_\mathrm{pp}}$ and glasma $Q_s$
+                    \end{itemize}
+                    \end{varwidth}
+                \end{custombox}
+            \end{center}
+            \vspace{-10pt}
+            \vspace{-7pt}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.83\columnwidth]{images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png}
+            \end{figure}
+            \column{.02\textwidth}
+        \end{columns}    
+    \end{center}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% SLIDE %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{$R_{AA}$ in glasma with nPDFs}
+    % \framesubtitle{Temporal evolution, energy dependence}
+    \vspace{-15pt}
+    \begin{center}
+        \begin{columns}[onlytextwidth,t]
+            \column{.02\textwidth}
+           \column{.47\textwidth}
+           \begin{center}
+                \begin{custombox}{\normalsize Initial state effects}{palgold}
+                    \small
+                    \begin{varwidth}{0.88\textwidth}
+                    \begin{itemize}
+                        \itemsep0em
+                        \footnotesize
+                        \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{palgold}\blacktriangleright}$}}} 
+                        \item No nPDF effects were considered 
+                        \item Glasma $AA$ spectrum initialized with FONLL in $pp$
+                    \end{itemize}
+                    \end{varwidth}
+                \end{custombox}
+            \end{center}
+            \vspace{-10pt}
+           \begin{figure}
+                \centering
+                \includegraphics[width=0.9\columnwidth]{images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png}
+            \end{figure}
+            \column{.02\textwidth}
+            \column{.47\textwidth}
+            \begin{center}
+                \begin{custombox}{\normalsize Effect of energy scales}{raapink}
+                    \small
+                    \begin{varwidth}{0.95\textwidth}
+                    \begin{itemize}
+                        \itemsep0em
+                        \footnotesize
+                        \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{raapink}\blacktriangleright}$}}} 
+                        \item Weak dependence on $\sqrt{s_\mathrm{pp}}$ and glasma $Q_s$
+                    \end{itemize}
+                    \end{varwidth}
+                \end{custombox}
+            \end{center}
+            \vspace{-10pt}
+            \vspace{-7pt}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.83\columnwidth]{images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png}
+            \end{figure}
+            \column{.02\textwidth}
+        \end{columns}    
+    \end{center}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
