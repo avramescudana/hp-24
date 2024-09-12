@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726152247.78831 "/home/dana/Downloads/research/talks/hp-24/slides.tex" "slides.pdf" "slides" 1726152262.48583 0
-  "/home/dana/Downloads/research/talks/hp-24/slides.tex" 1726152234.01591 67780 acd689f82209398b43b382abcf7be757 ""
+["pdflatex"] 1726167210.35526 "/home/dana/Downloads/research/talks/hp-24/slides.tex" "slides.pdf" "slides" 1726167226.57225 0
+  "/home/dana/Downloads/research/talks/hp-24/slides.tex" 1726167205.56935 68943 264f603db4385aad0ce72ed781374ab4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -420,11 +420,11 @@
   "images/wong_charge.png" 1722591234.25234 57055 92964f16e4877010874636ab754037f2 ""
   "images/wong_coord.png" 1722591234.25634 688301 a0f3182060768b666a61bbc24ac3d08c ""
   "images/wong_mom.png" 1722591234.26033 956535 90d4ff5216953d0c5d37cbcebdb9d792 ""
-  "slides.aux" 1726152262.33042 12986 5fc2a5073e287540ecb30c272531ca5a "pdflatex"
-  "slides.nav" 1726152262.33142 4950 b9531e7769362560cdeda4389c94ac1a "pdflatex"
-  "slides.out" 1726152262.33142 1677 31f5608950445fac2bb0a90997652b60 "pdflatex"
-  "slides.tex" 1726152234.01591 67780 acd689f82209398b43b382abcf7be757 ""
-  "slides.toc" 1726152262.33142 637 447080f2ee58330f6093dee5cd014daa "pdflatex"
+  "slides.aux" 1726167226.41382 12982 9c232ba45e78eee73b8f470317970e7d "pdflatex"
+  "slides.nav" 1726167226.41582 4950 6b413d03b92806eac0af726d4f5ce203 "pdflatex"
+  "slides.out" 1726167226.41482 1677 31f5608950445fac2bb0a90997652b60 "pdflatex"
+  "slides.tex" 1726167205.56935 68943 264f603db4385aad0ce72ed781374ab4 ""
+  "slides.toc" 1726167226.41582 637 447080f2ee58330f6093dee5cd014daa "pdflatex"
   (generated)
   "slides.aux"
   "slides.log"

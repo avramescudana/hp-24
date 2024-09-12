@@ -114,7 +114,8 @@
 \definecolor{palviolet}{HTML}{9F87AF}
 
 \definecolor{raapink}{HTML}{ce93b5}
-\definecolor{raablue}{HTML}{adcfe6}
+% \definecolor{raablue}{HTML}{adcfe6}
+\definecolor{raablue}{HTML}{5c93b8}
 
 \usepackage{etoolbox}
 \setbeamertemplate{blocks}[rounded][shadow=false]
@@ -361,11 +362,9 @@
 \end{columns}
 \vspace{10pt}
 \begin{center}
-    Based on \href{add link}{\color{jyured}arXiv2409.????} and \href{add link}{\color{jyured}arXiv2409.????}
+    Based on \href{add link}{\color{jyured}arXiv2409.????$^\text{\tiny\faExternalLink}$} and \href{add link}{\color{jyured}arXiv2409.????$^\text{\tiny\faExternalLink}$}
 \end{center}
 }
-
-
 
 \usebackgroundtemplate{
 \tikz[overlay,remember picture] \node[opacity=0.1, at=(current page.center)] {
@@ -521,7 +520,8 @@
                 \item Weakly coupled $\alpha_s\ll 1$
                 \item {\bfseries Gluon fields} with occupation number $\sim 1/\alpha_s\gg 1$ $\Rightarrow$ {\bfseries classical}
                 \item Real-time {\bfseries lattice gauge theory}
-                \item Out-of-equilibrium medium
+                \item {\bfseries Out-of-equilibrium} medium
+                % \item Non-perturbative dynamics
             \end{itemize}
             };
             \draw<1>[palgold,thick,fill=palgold,fill opacity=0.1,rounded corners=3pt] (-0.1,0.3) rectangle (\textheight-1.45cm,5.75);
@@ -894,7 +894,8 @@
 \begin{frame}[plain,noframenumbering]{}
     \frametitle{\\ Heavy quarks in glasma}
     \framesubtitle{Probing the glasma correlation domains}
-    \blfootnote{\scriptsize HP24 talk about charm quarks in IP-Glasma + next stages by \href{https://indico.cern.ch/event/1339555/contributions/6040854/}{{\color{palgold}Mayank Singh$^\text{\tiny\faMicrophone}$}}}
+    \blfootnote{\scriptsize Avramescu, Băran, Greco, Ipp, Müller, Ruggieri  \href{https://arxiv.org/abs/2303.05599}{{\color{palgold}\texttt{[2303.05599]}$^\text{\tiny\faExternalLink}$}}\\ 
+    \hspace{16.5pt}HP24 talk about charm quarks in IP-Glasma + next stages by \href{https://indico.cern.ch/event/1339555/contributions/6040854/}{{\color{palgold}Mayank Singh$^\text{\tiny\faMicrophone}$}}}
 \end{frame}
 \setbeamertemplate{background}{}
 
@@ -954,7 +955,7 @@
 %%%%%%%%%%%%%%%%% SLIDE %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}[noframenumbering]
+\begin{frame}
     \frametitle{Particles in glasma fields}
     \framesubtitle{Vizualizing the trajectories}
     \vspace{-0.5cm}
@@ -1197,26 +1198,15 @@
     \vspace{-10pt}
     \begin{columns}[onlytextwidth,t]
         \column{.033\textwidth}
-        \column{.4\textwidth}
-        \begin{center}
-    
-            \begin{figure}
-                \centering
-                \includegraphics[width=0.95\textwidth]{images/final_sketch_raa_gl_fonll_v4_crop_2.png}
-            \end{figure}
-        \end{center}
-        
-
-       \column{.033\textwidth}
-       \column{.5\textwidth}
+        \column{.43\textwidth}
        \begin{center}
         \begin{custombox2}{$\boldsymbol{R_{AA}}$ in glasma}{lightgray}
             \small
-            \begin{varwidth}{0.88\textwidth}
+            \begin{varwidth}{1.05\textwidth}
             \begin{itemize}\itemsep0em 
                 \itemsep0em
                 \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{lightgray}\blacktriangleright}$}}} 
-                \item Ratio of ${\color{palviolet}AA}$ to ${\color{palteal}pp}$ normalized spectra
+                \item Ratio of ${\color{raapink}\boldsymbol{AA}}$ to ${\color{raablue}\boldsymbol{pp}}$ normalized spectra
             \end{itemize}
             \end{varwidth}
         \end{custombox2}
@@ -1225,7 +1215,7 @@
             \itemsep0em
             \footnotesize\color{lightgray}
             \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{lightgray}\blacktriangleright}$}}} 
-            \item ${\color{palviolet}AA}$ evolved in {\color{palviolet}glasma}, ${\color{palteal}pp}$ from {\color{palteal}FONLL} 
+            \item ${\color{raapink}\boldsymbol{AA}}$ evolved in {\color{raapink}\bfseries glasma}, ${\color{raablue}\boldsymbol{pp}}$ from {\color{raablue}\bfseries FONLL} 
             \item Glasma spectrum initialized with FONLL
         \end{itemize}
         \vspace{5pt}
@@ -1233,13 +1223,35 @@
         \renewcommand{\eqnhighlightheight}{\vphantom{\mathcal{D}_\mu}\mathstrut}
         \begin{equation*}
             \hspace{0pt}
-            R_{AA}(\tau)=\dfrac{1}{A^2}\dfrac{{\color{palgold}\sigma}^{\textcolor{normal}{AA}}_{\mathrm{\textcolor{palgold}{tot}}}}{\eqnmark[palgold]{sigma}{{\color{palgold}\sigma}^{\textcolor{normal}{pp}}_{\mathrm{\textcolor{palgold}{tot}}}}}\dfrac{\eqnmark[palviolet]{gl}{\mathrm{d}N/\mathrm{d}p_T}(\tau)}{\eqnmark[palteal]{fonll}{\mathrm{d}N^{pp}/\mathrm{d}p_T}}
+            R_{AA}(\tau)=\dfrac{1}{A^2}\dfrac{{\color{palteal}\sigma}^{\textcolor{normal}{AA}}_{\mathrm{\textcolor{palteal}{tot}}}}{\eqnmark[palteal]{sigma}{{\color{palteal}\sigma}^{\textcolor{normal}{pp}}_{\mathrm{\textcolor{palteal}{tot}}}}}\dfrac{\eqnmark[raapink]{gl}{\mathrm{d}N/\mathrm{d}p_T}(\tau)}{\eqnmark[raablue]{fonll}{\mathrm{d}N^{pp}/\mathrm{d}p_T}}
         \end{equation*}
-        \annotate[yshift=-0.5em]{below, left}{sigma}{\tiny total $Q\overline{Q}$ cross section}
-        \annotate[yshift=1.2em]{above, left}{gl}{\tiny glasma spectrum}
-        \annotate[yshift=-2em]{below, left}{fonll}{\tiny FONLL spectrum}
+        \annotate[yshift=-0.5em]{below, left}{sigma}{\tiny normalization}
+        \annotate[yshift=1.2em]{above, left}{gl}{\tiny glasma}
+        \annotate[yshift=-0.5em]{below, left}{fonll}{\tiny FONLL}
 
        \end{center}
+       \column{.033\textwidth}
+       \column{.47\textwidth}
+        \begin{center}
+            \begin{custombox2}{\small$\boldsymbol{R_{AA}}$ in glasma explained}{palteal}
+                \small
+                \begin{varwidth}{\textwidth}
+                \begin{itemize}\itemsep0em 
+                    \itemsep0em
+                    \scriptsize
+                    \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{palteal}\blacktriangleright}$}}} 
+                    \item Small $p_T$ particles only migrate to larger $p_T$
+                    \item Depletion at small $p_T$, enhancement at large $p_T$
+                \end{itemize}
+                \end{varwidth}
+            \end{custombox2}
+            \vspace{-15pt}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\textwidth]{images/final_sketch_raa_gl_fonll_v4_crop_2.png}
+            \end{figure}
+        \end{center}
+       
         \column{.033\textwidth}
     \end{columns}
 \end{frame}
@@ -1573,7 +1585,7 @@
                 % \footnotesize
                 \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{lightgray}\blacktriangleright}$}}} 
                 \item Classical transport of heavy quarks in glasma
-                \item \textbf{Anisotropic} momentum broadening
+                % \item \textbf{Anisotropic} momentum broadening
                 \item \textbf{Large} transport coefficient $\boldsymbol{\kappa}$
             \end{itemize}
             \end{varwidth}
@@ -1583,13 +1595,14 @@
 
         \begin{custombox2}{Phenomenology}{palgold}
             \small
-            \begin{varwidth}{0.62\textwidth}
+            \begin{varwidth}{0.61\textwidth}
             \begin{itemize}\itemsep0em 
                 \itemsep0em
                 % \footnotesize
                 \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{palgold}\blacktriangleright}$}}} 
                 \item Impact of glasma on $R_{AA}$ weaker than \textbf{\color{palgold}nPDF} effect
-                \item Large \textbf{\color{palgold}azimuthal decorrelation} of $Q\overline{Q}$ pairs in glasma
+                \item Large \textbf{\color{palgold}azimuthal decorrelation} of $Q\overline{Q}$ pairs in glasma \\
+                Relevant for upcoming \textbf{\color{palgold}$\boldsymbol{D\overline{D}}$ measurements} in $AA$
             \end{itemize}
             \end{varwidth}
         \end{custombox2}
@@ -1598,13 +1611,13 @@
 
         \begin{custombox2}{Improvements}{palviolet}
             \small
-            \begin{varwidth}{0.3\textwidth}
+            \begin{varwidth}{0.55\textwidth}
             \begin{itemize}\itemsep0em 
                 \itemsep0em
                 % \footnotesize
                 \setbeamertemplate{itemize item}{\raisebox{0.2em}{\scalebox{0.7}{${\color{palviolet}\blacktriangleright}$}}} 
-                \item \textbf{\color{palviolet}Energy loss} in glasma
-                \item Couple glasma to \textbf{\color{palviolet}EKT}
+                \item \textbf{\color{palviolet}Energy loss} mechanism in glasma
+                \item Couple glasma to effective kinetic theory (\textbf{\color{palviolet}EKT})
             \end{itemize}
             \end{varwidth}
         \end{custombox2}
