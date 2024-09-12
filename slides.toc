@@ -1,3 +1,11 @@
-\beamer@sectionintoc {1}{Phenomenology implications}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Nuclear modification factor}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Two-particle correlations}{8}{0}{1}
+\beamer@sectionintoc {1}{Initial stage}{3}{0}{1}
+\beamer@sectionintoc {2}{Glasma}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Color glass condensate}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Features of the glasma}{9}{0}{2}
+\beamer@sectionintoc {3}{Heavy quarks in glasma}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Transport equations}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Transport coefficients}{15}{0}{3}
+\beamer@sectionintoc {4}{Phenomenology}{17}{0}{4}
+\beamer@subsectionintoc {4}{1}{Nuclear modification factor}{18}{0}{4}
+\beamer@subsectionintoc {4}{2}{Two-particle correlations}{22}{0}{4}
+\beamer@sectionintoc {5}{Summary}{25}{0}{5}
