@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726167210.35526 "/home/dana/Downloads/research/talks/hp-24/slides.tex" "slides.pdf" "slides" 1726167226.57225 0
-  "/home/dana/Downloads/research/talks/hp-24/slides.tex" 1726167205.56935 68943 264f603db4385aad0ce72ed781374ab4 ""
+["pdflatex"] 1726212757.28787 "/home/dana/Downloads/research/talks/hp-24/slides.tex" "slides.pdf" "slides" 1726212772.0734 0
+  "/home/dana/Downloads/research/talks/hp-24/slides.tex" 1726212740.98298 68949 9f5ee0f8b6e9b4673ecad89b3cbcc21c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -72,6 +72,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi8.tfm" 1364512039 3000 8e600ffb247b55d33f019684291222af ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssxi9.tfm" 1364512039 3020 01116cf88e44582b0455e2a3667f2c00 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb" 1248133631 32378 2b20eba6bb36c716382b6d96240eaa69 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb" 1248133631 32007 e8fa0078355f39467039935974716569 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
@@ -420,11 +421,11 @@
   "images/wong_charge.png" 1722591234.25234 57055 92964f16e4877010874636ab754037f2 ""
   "images/wong_coord.png" 1722591234.25634 688301 a0f3182060768b666a61bbc24ac3d08c ""
   "images/wong_mom.png" 1722591234.26033 956535 90d4ff5216953d0c5d37cbcebdb9d792 ""
-  "slides.aux" 1726167226.41382 12982 9c232ba45e78eee73b8f470317970e7d "pdflatex"
-  "slides.nav" 1726167226.41582 4950 6b413d03b92806eac0af726d4f5ce203 "pdflatex"
-  "slides.out" 1726167226.41482 1677 31f5608950445fac2bb0a90997652b60 "pdflatex"
-  "slides.tex" 1726167205.56935 68943 264f603db4385aad0ce72ed781374ab4 ""
-  "slides.toc" 1726167226.41582 637 447080f2ee58330f6093dee5cd014daa "pdflatex"
+  "slides.aux" 1726212771.88654 12192 11cfec2a9bd136c1c9fc5b0f1be33d01 "pdflatex"
+  "slides.nav" 1726212771.88854 4475 844aa874880e5ca0bc631370d52dcda3 "pdflatex"
+  "slides.out" 1726212771.88754 1585 5266f13c0cfecb6a3d50adb89b9b9b8f "pdflatex"
+  "slides.tex" 1726212740.98298 68949 9f5ee0f8b6e9b4673ecad89b3cbcc21c ""
+  "slides.toc" 1726212771.88854 635 f65f5d4b5c0b0dd27ad3e06cdd3f1071 "pdflatex"
   (generated)
   "slides.aux"
   "slides.log"

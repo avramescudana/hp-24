@@ -5,7 +5,7 @@
 \beamer@sectionintoc {3}{Heavy quarks in glasma}{11}{0}{3}
 \beamer@subsectionintoc {3}{1}{Transport equations}{13}{0}{3}
 \beamer@subsectionintoc {3}{2}{Transport coefficients}{15}{0}{3}
-\beamer@sectionintoc {4}{Phenomenology}{17}{0}{4}
+\beamer@sectionintoc {4}{Observables}{17}{0}{4}
 \beamer@subsectionintoc {4}{1}{Nuclear modification factor}{18}{0}{4}
 \beamer@subsectionintoc {4}{2}{Two-particle correlations}{22}{0}{4}
 \beamer@sectionintoc {5}{Summary}{25}{0}{5}
