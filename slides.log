@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  13 SEP 2024 09:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  18 SEP 2024 09:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1288,10 +1288,22 @@ Package varwidth Warning: Failed to reprocess entire contents on input line 782.
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc} <./images/spacetb-eps-converted-to.pdf>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 859.
+Package varwidth Warning: Failed to reprocess entire contents on input line 871.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 859.
+Package varwidth Warning: Failed to reprocess entire contents on input line 871.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 871.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 871.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 871.
+
+
+Package varwidth Warning: Failed to reprocess entire contents on input line 871.
 
 Package epstopdf Info: Source file: <images/glasma.eps>
 (epstopdf)                    date: 2024-08-23 09:30:04
@@ -1300,19 +1312,13 @@ Package epstopdf Info: Source file: <images/glasma.eps>
 (epstopdf)                    date: 2024-08-23 09:31:18
 (epstopdf)                    size: 129320 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/glasma-eps-converted-to.pdf images/glasma.eps>
-(epstopdf)             \includegraphics on input line 859.
+(epstopdf)             \includegraphics on input line 871.
 Package epstopdf Info: Output file is already uptodate.
 <images/glasma-eps-converted-to.pdf, id=411, 407.5225pt x 226.8475pt>
 File: images/glasma-eps-converted-to.pdf Graphic file (type pdf)
 <use images/glasma-eps-converted-to.pdf>
-Package pdftex.def Info: images/glasma-eps-converted-to.pdf  used on input line 859.
+Package pdftex.def Info: images/glasma-eps-converted-to.pdf  used on input line 871.
 (pdftex.def)             Requested size: 116.77058pt x 64.99834pt.
-
-Package varwidth Warning: Failed to reprocess entire contents on input line 859.
-
-
-Package varwidth Warning: Failed to reprocess entire contents on input line 859.
-
 Package epstopdf Info: Source file: <images/components.eps>
 (epstopdf)                    date: 2024-08-23 09:24:42
 (epstopdf)                    size: 68027 bytes
@@ -1320,23 +1326,17 @@ Package epstopdf Info: Source file: <images/components.eps>
 (epstopdf)                    date: 2024-08-23 09:25:01
 (epstopdf)                    size: 26966 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/components-eps-converted-to.pdf images/components.eps>
-(epstopdf)             \includegraphics on input line 859.
+(epstopdf)             \includegraphics on input line 871.
 Package epstopdf Info: Output file is already uptodate.
 <images/components-eps-converted-to.pdf, id=412, 663.47874pt x 514.92375pt>
 File: images/components-eps-converted-to.pdf Graphic file (type pdf)
 <use images/components-eps-converted-to.pdf>
-Package pdftex.def Info: images/components-eps-converted-to.pdf  used on input line 859.
+Package pdftex.def Info: images/components-eps-converted-to.pdf  used on input line 871.
 (pdftex.def)             Requested size: 116.77058pt x 90.6237pt.
-
-Package varwidth Warning: Failed to reprocess entire contents on input line 859.
-
-
-Package varwidth Warning: Failed to reprocess entire contents on input line 859.
-
 <images/1-s2.0-S0370269320306134-gr003_lrg.jpg, id=413, 111.2958pt x 120.2091pt>
 File: images/1-s2.0-S0370269320306134-gr003_lrg.jpg Graphic file (type jpg)
 <use images/1-s2.0-S0370269320306134-gr003_lrg.jpg>
-Package pdftex.def Info: images/1-s2.0-S0370269320306134-gr003_lrg.jpg  used on input line 859.
+Package pdftex.def Info: images/1-s2.0-S0370269320306134-gr003_lrg.jpg  used on input line 871.
 (pdftex.def)             Requested size: 90.8218pt x 98.1007pt.
 
 
@@ -1347,7 +1347,7 @@ Package pdftex.def Info: images/1-s2.0-S0370269320306134-gr003_lrg.jpg  used on 
 <images/hqs_flux_tubes_background+hqs.png, id=448, 6022.5pt x 2158.0625pt>
 File: images/hqs_flux_tubes_background+hqs.png Graphic file (type png)
 <use images/hqs_flux_tubes_background+hqs.png>
-Package pdftex.def Info: images/hqs_flux_tubes_background+hqs.png  used on input line 882.
+Package pdftex.def Info: images/hqs_flux_tubes_background+hqs.png  used on input line 895.
 (pdftex.def)             Requested size: 428.69406pt x 153.64644pt.
 [11
 
@@ -1355,16 +1355,16 @@ Package pdftex.def Info: images/hqs_flux_tubes_background+hqs.png  used on input
 
 File: images/hqs_flux_tubes_background+hqs.png Graphic file (type png)
 <use images/hqs_flux_tubes_background+hqs.png>
-Package pdftex.def Info: images/hqs_flux_tubes_background+hqs.png  used on input line 899.
+Package pdftex.def Info: images/hqs_flux_tubes_background+hqs.png  used on input line 912.
 (pdftex.def)             Requested size: 428.69406pt x 153.64644pt.
 [12
 
 ]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 952.
+Package varwidth Warning: Failed to reprocess entire contents on input line 965.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 952.
+Package varwidth Warning: Failed to reprocess entire contents on input line 965.
 
 
 
@@ -1374,30 +1374,30 @@ Package varwidth Warning: Failed to reprocess entire contents on input line 952.
 <images/wong_coord.png, id=469, 438.219pt x 398.361pt>
 File: images/wong_coord.png Graphic file (type png)
 <use images/wong_coord.png>
-Package pdftex.def Info: images/wong_coord.png  used on input line 1000.
+Package pdftex.def Info: images/wong_coord.png  used on input line 1013.
 (pdftex.def)             Requested size: 142.72137pt x 129.73932pt.
 
-Overfull \hbox (12.97539pt too wide) in paragraph at lines 1000--1000
+Overfull \hbox (12.97539pt too wide) in paragraph at lines 1013--1013
  [] 
  []
 
 <images/wong_mom.png, id=470, 423.984pt x 398.361pt>
 File: images/wong_mom.png Graphic file (type png)
 <use images/wong_mom.png>
-Package pdftex.def Info: images/wong_mom.png  used on input line 1000.
+Package pdftex.def Info: images/wong_mom.png  used on input line 1013.
 (pdftex.def)             Requested size: 142.72137pt x 134.0976pt.
 
-Overfull \hbox (12.97539pt too wide) in paragraph at lines 1000--1000
+Overfull \hbox (12.97539pt too wide) in paragraph at lines 1013--1013
  [] 
  []
 
 <images/wong_charge.png, id=471, 375.65344pt x 330.48468pt>
 File: images/wong_charge.png Graphic file (type png)
 <use images/wong_charge.png>
-Package pdftex.def Info: images/wong_charge.png  used on input line 1000.
+Package pdftex.def Info: images/wong_charge.png  used on input line 1013.
 (pdftex.def)             Requested size: 136.23367pt x 119.85184pt.
 
-Overfull \hbox (6.48769pt too wide) in paragraph at lines 1000--1000
+Overfull \hbox (6.48769pt too wide) in paragraph at lines 1013--1013
  [] 
  []
 
@@ -1411,13 +1411,13 @@ pdfTeX warning: pdflatex (file ./images/hp23_mom_broad_kappa_anis_wong_vs_kappa-
 <images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf, id=481, 338.13326pt x 300.12125pt>
 File: images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf Graphic file (type pdf)
 <use images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf>
-Package pdftex.def Info: images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf  used on input line 1054.
+Package pdftex.def Info: images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf  used on input line 1068.
 (pdftex.def)             Requested size: 194.61568pt x 172.73781pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1054.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1068.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1054.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1068.
 
 
 
@@ -1426,20 +1426,20 @@ Package varwidth Warning: Failed to reprocess entire contents on input line 1054
  <./images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf>]
 File: images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf Graphic file (type pdf)
 <use images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf>
-Package pdftex.def Info: images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf  used on input line 1102.
+Package pdftex.def Info: images/hp23_mom_broad_kappa_anis_wong_vs_kappa-cropped.pdf  used on input line 1117.
 (pdftex.def)             Requested size: 194.61568pt x 172.73781pt.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1102.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1117.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1102.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1117.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1102.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1117.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1102.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1117.
 
 
 
@@ -1450,32 +1450,32 @@ Package varwidth Warning: Failed to reprocess entire contents on input line 1102
 <images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png, id=526, 4767.8125pt x 3197.9475pt>
 File: images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png Graphic file (type png)
 <use images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png>
-Package pdftex.def Info: images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png  used on input line 1120.
+Package pdftex.def Info: images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png  used on input line 1135.
 (pdftex.def)             Requested size: 305.40814pt x 204.86061pt.
 [17
 
  <./images/Cdetadphi_3D_toy_charm_pT_1_tau_0.1_crop.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1189.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1204.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1189.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1204.
 
 <images/final_sketch_raa_gl_fonll_v4_gl.png, id=531, 2903.84875pt x 2699.08376pt>
 File: images/final_sketch_raa_gl_fonll_v4_gl.png Graphic file (type png)
 <use images/final_sketch_raa_gl_fonll_v4_gl.png>
-Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_gl.png  used on input line 1189.
+Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_gl.png  used on input line 1204.
 (pdftex.def)             Requested size: 149.98633pt x 139.44893pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1189.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1204.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1189.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1204.
 
 <images/final_sketch_raa_gl_fonll_v4_fonll.png, id=532, 2913.88625pt x 2710.125pt>
 File: images/final_sketch_raa_gl_fonll_v4_fonll.png Graphic file (type png)
 <use images/final_sketch_raa_gl_fonll_v4_fonll.png>
-Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_fonll.png  used on input line 1189.
+Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_fonll.png  used on input line 1204.
 (pdftex.def)             Requested size: 149.92676pt x 139.44893pt.
 
 
@@ -1483,21 +1483,21 @@ Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_fonll.png  used on 
 
  <./images/final_sketch_raa_gl_fonll_v4_gl.png> <./images/final_sketch_raa_gl_fonll_v4_fonll.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1257.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1272.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1257.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1272.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1257.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1272.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1257.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1272.
 
 <images/final_sketch_raa_gl_fonll_v4_crop_2.png, id=539, 2707.11375pt x 2710.125pt>
 File: images/final_sketch_raa_gl_fonll_v4_crop_2.png Graphic file (type png)
 <use images/final_sketch_raa_gl_fonll_v4_crop_2.png>
-Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_crop_2.png  used on input line 1257.
+Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_crop_2.png  used on input line 1272.
 (pdftex.def)             Requested size: 142.28639pt x 142.42015pt.
 
 
@@ -1505,29 +1505,29 @@ Package pdftex.def Info: images/final_sketch_raa_gl_fonll_v4_crop_2.png  used on
 
  <./images/final_sketch_raa_gl_fonll_v4_crop_2.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1314.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1329.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1314.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1329.
 
 <images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png, id=546, 505.89pt x 457.71pt>
 File: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png Graphic file (type png)
 <use images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png>
-Package pdftex.def Info: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png  used on input line 1314.
+Package pdftex.def Info: images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png  used on input line 1329.
 (pdftex.def)             Requested size: 182.9392pt x 165.5158pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1314.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1329.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1314.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1329.
 
 <images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png, id=547, 1907.125pt x 1907.125pt>
 File: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png Graphic file (type png)
 <use images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png>
-Package pdftex.def Info: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png  used on input line 1314.
+Package pdftex.def Info: images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png  used on input line 1329.
 (pdftex.def)             Requested size: 168.71211pt x 168.6947pt.
 
-Overfull \vbox (4.38686pt too high) detected at line 1314
+Overfull \vbox (4.38686pt too high) detected at line 1329
  []
 
 
@@ -1536,26 +1536,26 @@ Overfull \vbox (4.38686pt too high) detected at line 1314
 
  <./images/clean_raa_tau_dep_quarks_charmQs_2.0_fonll_energy_5500_pdf_cteq.png> <./images/clean_raa_tau_dep_charm_quark_Qs_fonll_energy_dep_qsenergymap_v3.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1384.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1399.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1384.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1399.
 
 <images/FitForm_EPPS16.pdf, id=554, 713.45244pt x 542.73665pt>
 File: images/FitForm_EPPS16.pdf Graphic file (type pdf)
 <use images/FitForm_EPPS16.pdf>
-Package pdftex.def Info: images/FitForm_EPPS16.pdf  used on input line 1384.
+Package pdftex.def Info: images/FitForm_EPPS16.pdf  used on input line 1399.
 (pdftex.def)             Requested size: 152.45036pt x 115.97389pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1384.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1399.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1384.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1399.
 
 <images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_vs_npdf_v3.png, id=555, 2007.5pt x 2007.5pt>
 File: images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_vs_npdf_v3.png Graphic file (type png)
 <use images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_vs_npdf_v3.png>
-Package pdftex.def Info: images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_vs_npdf_v3.png  used on input line 1384.
+Package pdftex.def Info: images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_vs_npdf_v3.png  used on input line 1399.
 (pdftex.def)             Requested size: 166.68056pt x 166.6684pt.
 
 
@@ -1563,21 +1563,21 @@ Package pdftex.def Info: images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_v
 
  <./images/FitForm_EPPS16.pdf> <./images/clean_raa_tau_0.3_charm_quark_Qs_2.0_fonll_pdf_vs_npdf_v3.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1440.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1455.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1440.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1455.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1440.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1455.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1440.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1455.
 
 <images/sketch_quark_pair_evo_v5.png, id=585, 933.816pt x 274.407pt>
 File: images/sketch_quark_pair_evo_v5.png Graphic file (type png)
 <use images/sketch_quark_pair_evo_v5.png>
-Package pdftex.def Info: images/sketch_quark_pair_evo_v5.png  used on input line 1440.
+Package pdftex.def Info: images/sketch_quark_pair_evo_v5.png  used on input line 1455.
 (pdftex.def)             Requested size: 410.8568pt x 120.73108pt.
 
 
@@ -1585,31 +1585,31 @@ Package pdftex.def Info: images/sketch_quark_pair_evo_v5.png  used on input line
 
  <./images/sketch_quark_pair_evo_v5.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1513.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1528.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1513.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1528.
 
 <images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.01_v2.png, id=591, 4807.9625pt x 3573.35pt>
 File: images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.01_v2.png Graphic file (type png)
 <use images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.01_v2.png>
-Package pdftex.def Info: images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.01_v2.png  used on input line 1513.
+Package pdftex.def Info: images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.01_v2.png  used on input line 1528.
 (pdftex.def)             Requested size: 125.42024pt x 93.18298pt.
 <images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.3_v2.png, id=592, 4968.5625pt x 3573.35pt>
 File: images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.3_v2.png Graphic file (type png)
 <use images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.3_v2.png>
-Package pdftex.def Info: images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.3_v2.png  used on input line 1513.
+Package pdftex.def Info: images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.3_v2.png  used on input line 1528.
 (pdftex.def)             Requested size: 125.42024pt x 90.18411pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1513.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1528.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1513.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1528.
 
 <images/final_dNdphi_tau_dep_charm_v2.png, id=593, 3412.75pt x 3412.75pt>
 File: images/final_dNdphi_tau_dep_charm_v2.png Graphic file (type png)
 <use images/final_dNdphi_tau_dep_charm_v2.png>
-Package pdftex.def Info: images/final_dNdphi_tau_dep_charm_v2.png  used on input line 1513.
+Package pdftex.def Info: images/final_dNdphi_tau_dep_charm_v2.png  used on input line 1528.
 (pdftex.def)             Requested size: 124.55556pt x 124.50966pt.
 
 
@@ -1617,29 +1617,29 @@ Package pdftex.def Info: images/final_dNdphi_tau_dep_charm_v2.png  used on input
 
  <./images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.01_v2.png> <./images/paper_Cdetadphi_3D_toy_charm_pT_1_tau_0.3_v2.png> <./images/final_dNdphi_tau_dep_charm_v2.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1570.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1585.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1570.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1585.
 
 <images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png, id=603, 542.025pt x 457.71pt>
 File: images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png Graphic file (type png)
 <use images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png>
-Package pdftex.def Info: images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png  used on input line 1570.
+Package pdftex.def Info: images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png  used on input line 1585.
 (pdftex.def)             Requested size: 193.10318pt x 163.06438pt.
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1570.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1585.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1570.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1585.
 
 <images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png, id=604, 549.471pt x 457.71pt>
 File: images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png Graphic file (type png)
 <use images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png>
-Package pdftex.def Info: images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png  used on input line 1570.
+Package pdftex.def Info: images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png  used on input line 1585.
 (pdftex.def)             Requested size: 193.10318pt x 160.85042pt.
 
-Overfull \vbox (2.08821pt too high) detected at line 1570
+Overfull \vbox (2.08821pt too high) detected at line 1585
  []
 
 
@@ -1648,22 +1648,22 @@ Overfull \vbox (2.08821pt too high) detected at line 1570
 
  <./images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png> <./images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png>]
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1629.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1644.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1629.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1644.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1629.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1644.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1629.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1644.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1629.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1644.
 
 
-Package varwidth Warning: Failed to reprocess entire contents on input line 1629.
+Package varwidth Warning: Failed to reprocess entire contents on input line 1644.
 
 
 
@@ -1700,7 +1700,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,1952b,1456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on slides.pdf (26 pages, 23130939 bytes).
+Output written on slides.pdf (26 pages, 23131845 bytes).
 PDF statistics:
  808 PDF objects out of 1000 (max. 8388607)
  461 compressed objects within 5 object streams
