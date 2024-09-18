@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726645128.0662 "/home/dana/Downloads/research/talks/hp-24/slides.tex" "slides.pdf" "slides" 1726645142.93723 0
-  "/home/dana/Downloads/research/talks/hp-24/slides.tex" 1726645098.21565 69444 46d08fe9b7d8655cf8fa48af872c75e5 ""
+["pdflatex"] 1726645762.86135 "/home/dana/Downloads/research/talks/hp-24/slides.tex" "slides.pdf" "slides" 1726645778.15281 0
+  "/home/dana/Downloads/research/talks/hp-24/slides.tex" 1726645762.12312 69701 3641038c581b5b395082556e152c5d49 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -415,17 +415,17 @@
   "images/sheets1.pdf" 1725979614.25386 527220 ffcec617142d3a00c70c2389ec128550 ""
   "images/sigma_dphideta_tau_charm_beauty_Qs_dep_scaled_final_azimuth.png" 1725307975.27641 440389 82ee435d127818737cef1b75ba1e97a0 ""
   "images/sigma_dphideta_tau_charm_beauty_pT_dep_final_azimuth.png" 1725307975.25741 395556 ac7c0165c82dc3fcd1dbdab5f739b2be ""
-  "images/sketch_quark_pair_evo_v5.png" 1726131896.5353 1995421 93f3e89dfea9856b55d9455bb684b1fa ""
+  "images/sketch_quark_pair_evo_final.png" 1726645732.37186 1988201 5d7ad182308929ed28634fcecb15b8ec ""
   "images/spacetb.eps" 1726054734.70918 59171 9ebc9e2c38a350a9443265489e282ff5 ""
   "images/trajectories_cpic.png" 1725952136.396 1918225 3c862b51406f8df7ba0d3835f05d608a ""
   "images/wong_charge.png" 1722591234.25234 57055 92964f16e4877010874636ab754037f2 ""
   "images/wong_coord.png" 1722591234.25634 688301 a0f3182060768b666a61bbc24ac3d08c ""
   "images/wong_mom.png" 1722591234.26033 956535 90d4ff5216953d0c5d37cbcebdb9d792 ""
-  "slides.aux" 1726645142.79319 12192 11cfec2a9bd136c1c9fc5b0f1be33d01 "pdflatex"
-  "slides.nav" 1726645142.79419 4475 844aa874880e5ca0bc631370d52dcda3 "pdflatex"
-  "slides.out" 1726645142.79419 1585 5266f13c0cfecb6a3d50adb89b9b9b8f "pdflatex"
-  "slides.tex" 1726645098.21565 69444 46d08fe9b7d8655cf8fa48af872c75e5 ""
-  "slides.toc" 1726645142.79419 635 f65f5d4b5c0b0dd27ad3e06cdd3f1071 "pdflatex"
+  "slides.aux" 1726645777.99927 12192 a3fc8218e7fd5e0e628147f6de8ba672 "pdflatex"
+  "slides.nav" 1726645778.00127 4475 844aa874880e5ca0bc631370d52dcda3 "pdflatex"
+  "slides.out" 1726645778.00027 1585 5266f13c0cfecb6a3d50adb89b9b9b8f "pdflatex"
+  "slides.tex" 1726645762.12312 69701 3641038c581b5b395082556e152c5d49 ""
+  "slides.toc" 1726645778.00127 635 f65f5d4b5c0b0dd27ad3e06cdd3f1071 "pdflatex"
   (generated)
   "slides.aux"
   "slides.log"
